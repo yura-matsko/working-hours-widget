@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply font-roboto text-base text-black;
+  }
+  h3 {
+    @apply text-2xl/[1.875rem] font-bold;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
